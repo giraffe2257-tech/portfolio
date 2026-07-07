@@ -21,7 +21,7 @@ const PAGES = [
   const linkFor = p => {
     if (singlePage) return '#' + p.id;        // scroll to section
     if (isHome) return p.id === 'home' ? p.file : p.file + (vv ? '?v=' + vv : '');
-    const base = vv ? 'index-' + vv + '.html' : 'index.html';   // inner standalone -> home anchors
+    const base = 'index.html';   // inner standalone -> home anchors (always clean root home)
     return p.id === 'home' ? base : base + '#' + p.id;
   };
 
