@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Case Study — Vivian Wang</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Hanken+Grotesk:wght@400;500;600&family=Josefin+Sans:wght@100;200;300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="side-projects">
+<script>(function(){var v=(new URLSearchParams(location.search).get('v'))||'c';document.body.classList.add(v==='a'?'va':v==='b'?'vb':'vc');})();</script>
+
+<section class="ipage ip-case">
+  <a class="cs-back" href="side-projects.html">← All projects</a>
+  <div class="cs-page-doc" id="caseRoot"></div>
+</section>
+
+<script src="i18n.js"></script>
+<script src="cases.js"></script>
+<script>
+  (function(){
+    var id=new URLSearchParams(location.search).get('id');
+    var root=document.getElementById('caseRoot');
+    function render(){
+      if(id&&window.renderCase&&window.CASES[id]){ root.innerHTML=window.renderCase(id,'page'); }
+      else { root.innerHTML='<p class="cs-note">Case not found. <a href="side-projects.html">Back to projects</a>.</p>'; }
+    }
+    render();
+    window.addEventListener('langchange', render);   // re-render case body when language switches
+  })();
+</script>
+<script src="app.js"></script>
+
+<!-- debug overlay -->
+<link rel="stylesheet" href="assets/debug-overlay.css">
+<script src="assets/debug-overlay.js"></script>
+</body>
+</html>

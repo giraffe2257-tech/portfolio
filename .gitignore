@@ -1,0 +1,5 @@
+# Internal / non-deploy files — keep out of the published site & repo
+_reference/
+SITE-AUDIT-TODO.md
+.DS_Store
+portfolio-review.png

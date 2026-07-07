@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Scattered feedback sources converging into one dashboard">
+  <rect width="320" height="200" fill="#100D08"/>
+  <rect x="170" y="46" width="120" height="110" rx="9" fill="none" stroke="#C9A06A" stroke-width="1.8"/>
+  <rect x="184" y="118" width="15" height="26" fill="#C9A06A" opacity=".35"/>
+  <rect x="206" y="100" width="15" height="44" fill="#C9A06A" opacity=".55"/>
+  <rect x="228" y="110" width="15" height="34" fill="#C9A06A" opacity=".45"/>
+  <rect x="250" y="86" width="15" height="58" fill="#C9A06A"/>
+  <g fill="none" stroke="#9E9C90" stroke-width="1.2" opacity=".7">
+    <rect x="30" y="60" width="26" height="16" rx="3"/>
+    <rect x="40" y="100" width="26" height="16" rx="3"/>
+    <rect x="30" y="140" width="26" height="16" rx="3"/>
+  </g>
+  <g fill="none" stroke="#9E9C90" stroke-width="1" stroke-dasharray="3 4" opacity=".5">
+    <path d="M58 68 C110 68 130 92 166 96"/>
+    <path d="M68 108 C120 108 140 100 166 100"/>
+    <path d="M58 148 C112 148 134 108 166 104"/>
+  </g>
+  <text x="24" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" letter-spacing=".08em" fill="#9E9C90">cs · pm · ops</text>
+  <text x="296" y="184" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" letter-spacing=".08em" fill="#C9A06A">scattered &#8594; one board</text>
+</svg>

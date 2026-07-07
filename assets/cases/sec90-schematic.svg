@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="A 90-second clip taken from the existing archive timeline">
+  <rect width="320" height="200" fill="#100D08"/>
+  <line x1="30" y1="108" x2="292" y2="108" stroke="rgba(236,230,218,.18)" stroke-width="1.5"/>
+  <line x1="30" y1="108" x2="190" y2="108" stroke="#C9A06A" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="110" cy="62" r="17" fill="none" stroke="#C9A06A" stroke-width="1.8"/>
+  <path d="M105 54 L120 62 L105 70 Z" fill="#C9A06A"/>
+  <text x="30" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" letter-spacing=".08em" fill="#9E9C90">0:00</text>
+  <text x="190" y="134" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" letter-spacing=".08em" fill="#C9A06A">1:30</text>
+  <g fill="none" stroke="#9E9C90" stroke-width="1.2" opacity=".6">
+    <rect x="216" y="50" width="24" height="38" rx="4"/>
+    <rect x="246" y="50" width="24" height="38" rx="4"/>
+  </g>
+  <rect x="276" y="50" width="24" height="38" rx="4" fill="none" stroke="#C9A06A" stroke-width="1.6"/>
+  <text x="24" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" letter-spacing=".08em" fill="#9E9C90">clip · from archive</text>
+  <text x="296" y="184" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" letter-spacing=".08em" fill="#C9A06A">content +4%</text>
+</svg>
