@@ -123,7 +123,7 @@ window.CASES = {
     tag: '17LIVE · Product',
     title: 'Avatar',
     summary: 'A product effort around the V-Liver virtual avatar feature, with the livestream-effects team',
-    metric: 'Complaints 30/mo → 0 · effective view time +10%',
+    metric: 'Complaints 30/mo → 0 · effective viewing time +10%',
     tags: ['Cross-functional', 'V-Liver Optimization', 'Reversible Toggle'],
     loc: {
       zh: { title: '虛擬人像', summary: '與直播特效團隊協作, 圍繞 V-Liver 虛擬人像功能的產品優化', tags: ['跨職能', 'V-Liver 優化', '可逆開關'],
@@ -161,7 +161,7 @@ window.CASES = {
       { k: 'Problem', b: 'About 30 complaints a month, with no way to turn the avatar off, so negative feedback kept coming in.' },
       { k: 'Decisions', b: 'With the PM and engineers, chose a reversible on/off toggle as a workaround, rather than hard-deleting the feature or forcing it on everyone. Why this approach: lowest engineering cost, reversible, and it does not penalise users who had invested in their avatar.' },
       { k: 'Execution', b: 'Evaluated the options with the PM and coordinated the build and launch of the toggle. In parallel, partnered with the livestream-effects team to optimise the avatar for V-Liver (virtual-streamer) demand in the Japan market, integrating it into the core app experience.' },
-      { k: 'Impact', b: 'Complaints dropped from 30 a month to 0. Some users proactively emailed to say thank you, a strong qualitative signal. The follow-on V-Liver optimization for the Japan market lifted effective view time +10%.' },
+      { k: 'Impact', b: 'Complaints dropped from 30 a month to 0. Some users proactively emailed to say thank you, a strong qualitative signal. The follow-on V-Liver optimization for the Japan market lifted effective viewing time +10%.' },
       { k: 'Learning', b: 'A small, reversible control can fully resolve a long-standing UX complaint. Scope discipline over a bigger build.' },
     ],
   },
@@ -201,7 +201,7 @@ window.CASES = {
     sections: [
       { k: 'Context', b: 'Posting consistently across Threads and Instagram is a grind, and generic AI copy never sounds like anyone worth following. The accounts that grow have a recognisable voice and a repeatable content structure.' },
       { k: 'Problem', b: 'Produce posts that read like a proven creator rather than generic AI, and carry them all the way to scheduled auto-posting instead of stopping at drafts.' },
-      { k: 'Decisions', b: 'Model the voice before writing anything. Regularly crawl hundreds of posts plus a handful of videos from successful KOLs, then distil each creator into a reusable persona: their tone, hooks, and structure. Build it as an agentic, multi-stage flow (ingest, model, draft, schedule, post) so every step runs on the tool that fits it.' },
+      { k: 'Decisions', b: 'Model the voice before writing anything. Regularly crawl hundreds of posts plus a handful of videos from successful KOLs, then distill each creator into a reusable persona: their tone, hooks, and structure. Build it as an agentic, multi-stage flow (ingest, model, draft, schedule, post) so every step runs on the tool that fits it.' },
       { k: 'Execution', b: 'Self-built with Claude Code. The ingestion layer pulls hundreds of KOL posts on a schedule alongside reference videos; a modeling stage turns each creator into a persona; a generation stage drafts in that persona for each platform. Multi-LLM, with the model per stage chosen for cost and quality.' },
       { k: 'Impact', b: 'In progress. Ingestion, persona modeling, and on-voice drafting run end to end; auto-posting and scheduling to Threads and Instagram are next.' },
       { k: 'Learning', b: 'Voice is the product. Investing in persona models up front beats one-off prompting and turns scattered generation into a system that can post on its own.' },
@@ -294,15 +294,15 @@ window.CASES = {
   },
 
   course: {
-    tag: 'Side Project · Claude Code Workshop',
-    title: 'Agentic-Coding Course',
-    summary: 'A hands-on Claude Code course built as a zero-to-one on-ramp for complete beginners',
+    tag: 'Side Project · AI Agent Workshop',
+    title: 'Agentic AI Workshop',
+    summary: 'A hands-on workshop on agentic AI tools, built as a zero-to-one on-ramp for complete beginners',
     metric: '3 cohorts run · hands-on workshop',
     link: 'workshop/index.html',
     tags: ['Claude Code', 'Workshop', 'AI Certificate'],
     loc: {
-      zh: { title: 'Agentic 編程課程', summary: '零基礎入門的 Claude Code 實作課程', tags: ['Claude Code', '工作坊', 'AI 證書'],
-        tag: 'Side Project · Claude Code 工作坊', metric: '已辦 3 場 · 實作工作坊', stack: ['Claude Code', 'Agentic 工具', 'AI Agents 證書'],
+      zh: { title: 'AI Agent 實戰工作坊', summary: '零基礎入門的 AI Agent 實作工作坊', tags: ['Claude Code', '工作坊', 'AI 證書'],
+        tag: 'Side Project · AI Agent 工作坊', metric: '已辦 3 場 · 實作工作坊', stack: ['Claude Code', 'Agentic 工具', 'AI Agents 證書'],
         sections: [
           { k: '背景', b: '平常關注科技社群、也自己修 AI 相關課程,把學到的分享給身邊人後,發現資訊落差比想像中大。' },
           { k: '問題', b: 'AI 工具的入門門檻比想像中高,文件往往無法建立操作信心;非工程師背景的學員尤其需要有結構、能動手做的引導路徑。' },
@@ -311,8 +311,8 @@ window.CASES = {
           { k: '成效', b: '已開辦 3 場,學員多為帝國理工學院(Imperial College London)非工程背景的學生。' },
           { k: '學習', b: '準備課程讓我發現「以為自己懂」和「能教清楚」之間的落差,反而是深化對 agentic 工具理解的最好方式。' },
         ] },
-      ja: { title: 'エージェンティック・コーディング講座', summary: 'ゼロから始める Claude Code ハンズオン講座', tags: ['Claude Code', 'ワークショップ', 'AI 証書'],
-        tag: 'Side Project · Claude Code ワークショップ', metric: '3回開催 · ハンズオン講座', stack: ['Claude Code', 'エージェンティックツール', 'AI エージェント証明書'],
+      ja: { title: 'AI エージェント実践ワークショップ', summary: 'ゼロから始める AI エージェント・ハンズオンワークショップ', tags: ['Claude Code', 'ワークショップ', 'AI 証書'],
+        tag: 'Side Project · AI エージェントワークショップ', metric: '3回開催 · ハンズオン講座', stack: ['Claude Code', 'エージェンティックツール', 'AI エージェント証明書'],
         sections: [
           { k: '背景', b: 'テクノロジーコミュニティを追いながら自分でも AI 関連コースを受講し、周囲にシェアしてみると、情報格差が思ったより大きいことに気づいた。' },
           { k: '課題', b: 'Claude Code のようなツールは入門のハードルが想像以上に高く、ドキュメントだけでは操作の自信がつかない。特にエンジニアリング経験のない学習者には構造的なハンズオン導線が必要だった。' },
